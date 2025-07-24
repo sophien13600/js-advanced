@@ -6,6 +6,14 @@ langages
 .forEach(l => console.log(l));
 
 // 2 - afficher le nombre de caractères de chaque langage
-langages.
+langages
+.map(l => l.length)
+.forEach(l=>console.log(l));
+
 // 3 - afficher les langages composés d'un nombre pair de caractères
+console.log("********************");
+
+langages
+.filter(l => l.length %2 == 0)
+.forEach(l=>console.log(l));
 
